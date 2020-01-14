@@ -1,0 +1,601 @@
+.col-1 {
+  width: 8.33333%;
+}
+
+.col-2 {
+  width: 16.66667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33333%;
+}
+
+.col-5 {
+  width: 41.66667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33333%;
+}
+
+.col-8 {
+  width: 66.66667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33333%;
+}
+
+.col-11 {
+  width: 91.66667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+html {
+  font-size: 15px;
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+li, span {
+  display: inline-block;
+}
+
+.row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+section {
+  padding: 40px 0;
+}
+
+.owl-dotss {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.owl-dot span {
+  width: 20px !important;
+  height: 20px !important;
+  background-color: black !important;
+  margin: 10px;
+  display: inline-block;
+}
+
+#scrollTop {
+  position: fixed;
+  background-color: #6f66a5;
+  color: white;
+  padding: 7px 12px;
+  border-radius: 7px;
+  bottom: 30px;
+  right: 30px;
+  font-size: 1.5rem;
+  display: none;
+}
+
+/*================Nav===============*/
+nav.navbar {
+  background-color: transparent !important;
+  position: relative;
+  z-index: 9;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+nav.navbar.f-top {
+  background-color: #fff !important;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav.navbar.f-top a.logo {
+  color: black !important;
+}
+
+nav.navbar.f-top ul li a.nav-link {
+  color: black !important;
+}
+
+nav.navbar.f-top .active::after {
+  content: "";
+  background-color: #6f66a5;
+}
+
+nav.navbar .active {
+  position: relative;
+}
+
+nav.navbar .active::after {
+  content: "";
+  background-color: white;
+  position: absolute;
+  height: 2px;
+  top: 35px;
+  left: 10px;
+  right: 10px;
+}
+
+nav.navbar a.logo {
+  color: white !important;
+}
+
+nav.navbar ul li a.nav-link {
+  margin: 0 20px;
+  color: white !important;
+  font-size: 1.2rem;
+}
+
+nav.navbar button.btn {
+  text-align: right;
+  background-color: #6f66a5;
+  color: white;
+  padding: 7px 25px;
+  border-radius: 30px;
+  border: none;
+}
+
+/*================Header===============*/
+header {
+  background-image: url(../img/images/hero_1.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: -56px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 220px 0;
+}
+
+.overlay h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+.overlay p {
+  color: #a19f9f;
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+
+.overlay button {
+  color: white;
+  background-color: #6f66a5;
+  padding: 13px 35px;
+  border: none;
+  border-radius: 30px;
+  margin: 20px 0;
+}
+
+.overlay form {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.overlay form h1 {
+  margin: 10px 0;
+}
+
+.overlay form input {
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #cccaca;
+}
+
+.overlay form button {
+  background-color: #6f66a5;
+  border-radius: 25px;
+  padding: 10px 30px;
+  color: white;
+}
+
+/*================SECTION===============*/
+section#Courses {
+  padding: 0;
+  padding-bottom: 60px;
+}
+
+section#Courses .img-holder img {
+  width: 100%;
+}
+
+section#Courses .course-info {
+  background-color: white;
+  padding: 25px 15px;
+  position: relative;
+}
+
+section#Courses .course-info h2 {
+  color: #6f66a5;
+  font-size: 1.3rem;
+}
+
+section#Courses .course-info h3 {
+  font-size: 1rem;
+}
+
+section#Courses .course-info ::after {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: #6f66a5;
+  color: white;
+  content: "55$";
+  text-align: center;
+  line-height: 50px;
+  top: -25px;
+  right: 0;
+  border-radius: 5px;
+}
+
+section#Courses .item:hover {
+  -webkit-transform: translateY(190px);
+          transform: translateY(190px);
+  -webkit-box-shadow: 10px 0px 10px #80808057;
+          box-shadow: 10px 0px 10px #80808057;
+}
+
+section#Courses .section-title {
+  background-color: #6f66a5;
+  padding: 50px 0 100px;
+}
+
+.owl-next, .owl-prev {
+  background-color: #6f66a5 !important;
+  color: white !important;
+  padding: 10px  15px !important;
+  margin: 20px 5px;
+  border-radius: 5px;
+  display: inline-block !important;
+}
+
+.owl-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .programs-info h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+section .programs-info p {
+  font-size: 1.2rem;
+  color: gray;
+  margin: 15px 0;
+  line-height: 30px;
+}
+
+section .Programs-item img {
+  width: 100%;
+}
+
+section .items {
+  margin-top: 70px;
+}
+
+section .education {
+  padding: 80px 0;
+}
+
+section .education h1 {
+  font-weight: normal;
+}
+
+section .education p {
+  margin: 15px 0;
+  color: grey;
+  font-size: 1.3rem;
+  line-height: 30px;
+}
+
+section .education .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .education .icons span {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #6f66a5;
+  line-height: 30px;
+  color: white;
+  display: inline-block;
+  margin: 20px 10px 0 0;
+}
+
+#Teachers .section-title {
+  margin-bottom: 60px;
+}
+
+#Teachers .teacher-info {
+  margin-top: 70px;
+  padding: 30px 20px;
+  position: relative;
+  border: 1px #eee solid;
+  text-align: center;
+  margin: 30px 0;
+}
+
+#Teachers .teacher-info img {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  -webkit-transform: translate(-60px, -80%);
+          transform: translate(-60px, -80%);
+}
+
+#Teachers .teacher-info h3 {
+  margin-top: 40px;
+  font-size: 1.2rem;
+}
+
+#Teachers .teacher-info h4 {
+  font-size: 1.2rem;
+  color: #c1bfbf;
+  font: caption;
+  margin: 20px 0;
+}
+
+#identity {
+  background-image: url(../img/images/hero_1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 0;
+}
+
+#identity .overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#identity img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+#identity h5 {
+  color: white;
+  margin: 15px 0;
+}
+
+#identity p {
+  font-size: 1.3rem;
+  color: white;
+  margin: 20px 0;
+}
+
+#choose {
+  overflow: hidden;
+}
+
+#choose h1 {
+  font-size: 3.2rem;
+  font-weight: bolder;
+  margin: 40px 0;
+}
+
+#choose .img-holder {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#choose .img-holder img.blob {
+  position: absolute;
+  top: 0;
+  right: -16%;
+  overflow: hidden;
+}
+
+#choose .img-holder img.blob2 {
+  position: absolute;
+  bottom: 0;
+  left: -16%;
+  overflow: hidden;
+}
+
+#choose .row {
+  padding: 50px 0;
+}
+
+#choose .row .choosing {
+  background-color: white;
+  padding: 15px;
+  -webkit-box-shadow: 10px 10px 10px #eee;
+          box-shadow: 10px 10px 10px #eee;
+  height: 400px;
+}
+
+#choose .row .choosing .choose-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 20px 0;
+}
+
+#choose .row .choosing .choose-item p {
+  font-size: 1.1rem;
+  color: gray;
+}
+
+#choose .row .choosing .choose-item span {
+  background-color: #6f66a5;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  margin-right: 30px;
+}
+
+#choose .row img {
+  width: 100%;
+}
+
+#Contact {
+  background-color: #eee;
+}
+
+#Contact h1 {
+  font-size: 3.2rem;
+  width: 100%;
+}
+
+#Contact p {
+  width: 100%;
+}
+
+#Contact form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #b9b8b8;
+  margin: 7px 0;
+}
+
+#Contact form textarea {
+  width: 100%;
+  margin: 7px 0;
+  border-radius: 5px;
+}
+
+#Contact form button {
+  background-color: #6f66a5;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 73px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#Contact form .form-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 7px 0 0;
+}
+
+#Contact form .form-info input {
+  padding: 10px;
+  width: 49%;
+  border-radius: 5px;
+  border: 1px solid #b9b8b8;
+}
+
+footer {
+  padding: 80px 0;
+}
+
+footer h3 {
+  margin: 15px 0;
+}
+
+footer p {
+  color: gray;
+  line-height: 28px;
+  font-size: 1.2rem;
+}
+
+footer ul li {
+  display: block;
+  color: #6f66a5;
+  margin: 15px 0;
+}
+
+footer ul li a {
+  color: #6f66a5;
+  font-size: 1.1rem;
+}
+
+footer ul li a:hover {
+  color: #6f66a5;
+}
+
+footer input {
+  padding: 7px 35px 7px 10px;
+  border-radius: 5px;
+  border: 1px solid #b9b8b8;
+}
+
+footer button {
+  padding: 7px;
+  background-color: #6f66a5;
+  color: white;
+  border: 1px solid #6f66a5;
+  border-radius: 5px;
+  margin-left: -3px;
+}
+
+footer .item p {
+  margin: 40px auto 0;
+}
+
+/******************MEDIA SCREEN**********************/
+@media (max-width: 780) {
+  #identity .overlay {
+    padding: 0%;
+  }
+  #Contact form {
+    padding: 0% !important;
+  }
+}
+/*# sourceMappingURL=project.css.map */
